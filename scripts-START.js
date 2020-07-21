@@ -1,4 +1,5 @@
 let countdown;
+ onxg timerDisplay = document.querySelector('.dispaly__time-left')
 
 function timer(seconds) {
   const now = Date.now();
